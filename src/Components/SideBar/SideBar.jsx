@@ -21,7 +21,7 @@ import {
 	Theme,
 	createStyles,
 } from "@material-ui/core/styles";
-import portfolioPic from "../../Images/portfolioPic.jpg";
+// import portfolioPic from "../../Images/portfolioPic.jpg";
 import "./SideBarStyle.css";
 import { Link } from "react-router-dom";
 import PermContactCalendarIcon from "@material-ui/icons/PermContactCalendar";
@@ -91,7 +91,7 @@ export default function SideBar(props: Props) {
 		<div>
 			<div className={classes.toolbar} />
 			<div className="mainSideBarInnerCard">
-				<img src={portfolioPic} alt="PortfolioPic" />
+				{/* <img src={portfolioPic} alt="PortfolioPic" /> */}
 				<Typography variant="h5" style={{ fontFamily: "Titillium Web" }}>
 					Johnny Chao
 				</Typography>
@@ -165,7 +165,7 @@ export default function SideBar(props: Props) {
 						noWrap
 						style={{ color: "black", fontFamily: "Titillium Web" }}
 					>
-						Johnny Chao | Strigon One
+						Johnny Chao
 					</Typography>
 				</Toolbar>
 			</AppBar>
