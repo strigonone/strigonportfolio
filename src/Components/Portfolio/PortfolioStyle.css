@@ -1,0 +1,92 @@
+.portfolioContent {
+	/* background-color: #e3f7ff; */
+	/* display: flex;
+	flex-direction: column; */
+	/* height: 90%; */
+	/* width: 100%; */
+	padding: 50px;
+
+	/* width: 100%; */
+}
+
+.portfolioContentText {
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.dateLeft {
+	/* position: absolute; */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 140px;
+	padding: 30px 15px;
+	color: #999;
+	text-align: right;
+	font-style: italic;
+	line-height: 30px;
+	border-right: 1px solid #999;
+	margin-left: 10%;
+}
+
+.mainPortfolioContainer {
+	display: flex;
+	/* flex-direction: row; */
+	margin-bottom: 5%;
+
+	/* border-bottom: 1px solid #999; */
+}
+
+.mainPortfolioContents {
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+	margin-left: 2%;
+
+	/* flex-wrap: wrap; */
+}
+
+.mainPortfolioText {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.mainPortfolioProjectImage {
+	width: 50%;
+	padding-left: 2%;
+	text-align: center;
+	float: left;
+}
+
+.mainPortfolioProjectImage img {
+	max-width: 100%;
+	max-height: 570px;
+}
+
+.portfolioButton {
+	background-color: #af2222;
+	border: none;
+	color: #fff;
+	padding: 0.7em 1.2em;
+	font-weight: 400;
+	margin-top: 2%;
+	cursor: pointer;
+}
+
+.techUsed {
+	display: flex;
+	flex-direction: row;
+}
+
+.player-wrapper {
+	position: relative;
+	padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
