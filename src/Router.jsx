@@ -6,6 +6,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import StrigonOneFFXIVWebsiteMoreDetails from "./Components/Portfolio/StrigonOneFFXIVWebsite/StrigonOneFFXIVMoreDetails";
 import KoFiMoreDetails from "./Components/Portfolio/KoFi/KoFiMoreDetails";
 import HyperVMore from "./Components/Portfolio/HyperVLab/HyperVMore";
+import AUTmore from "./Components/Portfolio/AUTMastersThesis/AUTMore";
 
 const Router = () => {
   return (
@@ -23,6 +24,7 @@ const Router = () => {
         component={LevelUpWorksWebsiteMoreDetails}
       />
       <Route exact path="/HyperVMore" component={HyperVMore} />
+      <Route exact path="/AUTMore" component={AUTmore} />
     </Switch>
   );
 };
