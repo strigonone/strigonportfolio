@@ -76,10 +76,24 @@ const KoFiWebsite = () => {
         <Grid item md>
           <Paper className={classes.paper}>
             <h1>Strigon One | FFXIV | KoFi </h1>
-            <h5>Date: 2020 - Ongoing</h5>
+            <h5>Date: 2019 - Ongoing</h5>
 
-            <h4>My KoFi Shop</h4>
-            <li>My shop that has made numerous sales off custom FFXIV Mods</li>
+            <h4>Freelance Digital Modding Business</h4>
+            <li>
+              Operated a successful Ko-fi store selling custom 3D mods for Final
+              Fantasy XIV
+            </li>
+            <li>
+              Over 1,000 sales across mod packs, character aesthetics, and
+              digital content
+            </li>
+            <li>
+              Managed customer support, version control, storefront updates, and
+              marketing
+            </li>
+            <li>
+              Used 3DS Max for rigging and mod creation; built all content solo
+            </li>
             <Link className={classes.link} to="/KoFiMoreDetails">
               <Button className={classes.buttonStyle} variant="contained">
                 More Details
@@ -100,10 +114,24 @@ const KoFiWebsite = () => {
             </Button>
             <Button
               className={classes.buttonStyle}
-              href="https://ko-fi.com/strigonone"
+              href="https://ko-fi.com/"
               variant="contained"
             >
-              KoFi
+              KoFi Platform
+            </Button>
+            <Button
+              className={classes.buttonStyle}
+              href="https://shadermap.com/home/"
+              variant="contained"
+            >
+              ShaderMap
+            </Button>
+            <Button
+              className={classes.buttonStyle}
+              href="https://www.adobe.com/au/products/photoshop.html"
+              variant="contained"
+            >
+              Adobe Photoshop
             </Button>
 
             {/* </ButtonGroup> */}
