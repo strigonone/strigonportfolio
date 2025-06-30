@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/strigonportfolio/static/css/main.4b7f9c66.css",
-    "main.js": "/strigonportfolio/static/js/main.d5bb2ba6.js",
+    "main.js": "/strigonportfolio/static/js/main.922287ed.js",
     "static/js/453.509be773.chunk.js": "/strigonportfolio/static/js/453.509be773.chunk.js",
     "static/media/strigonOneWebsiteDownloadPage.png": "/strigonportfolio/static/media/strigonOneWebsiteDownloadPage.cf553256b2b2df58619a.png",
     "static/media/strigonOneff14Lumina.jpg": "/strigonportfolio/static/media/strigonOneff14Lumina.674b0488dd769898155f.jpg",
@@ -20,12 +20,18 @@
     "static/media/HyperVLab.png": "/strigonportfolio/static/media/HyperVLab.d38a28e381e64d73282a.png",
     "static/media/levelupWorksTeachersigningupsuccessfully.png": "/strigonportfolio/static/media/levelupWorksTeachersigningupsuccessfully.d1908a77b6c0b12363df.png",
     "static/media/KoFiPage1.png": "/strigonportfolio/static/media/KoFiPage1.e3044f92ca2d19be588f.png",
+    "static/media/HyperVClientTalkingToHost.png": "/strigonportfolio/static/media/HyperVClientTalkingToHost.ec579d6903387a8c1d26.png",
     "static/media/KofiTopPage2.jpg": "/strigonportfolio/static/media/KofiTopPage2.7a18f37faf37192356e9.jpg",
     "static/media/levelupWorksTeacherProfilePage.png": "/strigonportfolio/static/media/levelupWorksTeacherProfilePage.1f872354b8f79db8a9e8.png",
     "static/media/levelupWorksTeacherProjects.png": "/strigonportfolio/static/media/levelupWorksTeacherProjects.fcbd1cf30e844b7eb2d0.png",
+    "static/media/HyperVAD.png": "/strigonportfolio/static/media/HyperVAD.be5100014fbdfc63bd72.png",
     "static/media/AUTLogo.png": "/strigonportfolio/static/media/AUTLogo.360e87c044b21e7f7256.png",
+    "static/media/HyperVDHCP.png": "/strigonportfolio/static/media/HyperVDHCP.e99c7774b293513dd265.png",
+    "static/media/HyperVUnattendScript.png": "/strigonportfolio/static/media/HyperVUnattendScript.e3277dfa9bd798ae0612.png",
+    "static/media/HyperVWDS.png": "/strigonportfolio/static/media/HyperVWDS.068a82d45708ffd86fc2.png",
+    "static/media/HyperVSCCM.png": "/strigonportfolio/static/media/HyperVSCCM.a9834423e77f5cbffa0c.png",
     "static/media/levelupWorksTeacherDash.png": "/strigonportfolio/static/media/levelupWorksTeacherDash.90d70bf5f52d8f05c291.png",
-    "static/media/MissionReadyDareToDevelop.png": "/strigonportfolio/static/media/MissionReadyDareToDevelop.4b795fd08073a6d0c5cf.png",
+    "static/media/HyperVPXEBoot.png": "/strigonportfolio/static/media/HyperVPXEBoot.ac33fe048d793c6688fc.png",
     "static/media/advent-pro-all-400-normal.woff": "/strigonportfolio/static/media/advent-pro-all-400-normal.2da052f407945de7d90e.woff",
     "static/media/titillium-web-all-400-normal.woff": "/strigonportfolio/static/media/titillium-web-all-400-normal.e69c0ac0fbfac1ba6595.woff",
     "static/media/advent-pro-latin-400-normal.woff2": "/strigonportfolio/static/media/advent-pro-latin-400-normal.43c00754c03862549055.woff2",
@@ -35,11 +41,11 @@
     "static/media/titillium-web-latin-ext-400-normal.woff2": "/strigonportfolio/static/media/titillium-web-latin-ext-400-normal.b14344ef3ff7bb41e49d.woff2",
     "index.html": "/strigonportfolio/index.html",
     "main.4b7f9c66.css.map": "/strigonportfolio/static/css/main.4b7f9c66.css.map",
-    "main.d5bb2ba6.js.map": "/strigonportfolio/static/js/main.d5bb2ba6.js.map",
+    "main.922287ed.js.map": "/strigonportfolio/static/js/main.922287ed.js.map",
     "453.509be773.chunk.js.map": "/strigonportfolio/static/js/453.509be773.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b7f9c66.css",
-    "static/js/main.d5bb2ba6.js"
+    "static/js/main.922287ed.js"
   ]
 }
