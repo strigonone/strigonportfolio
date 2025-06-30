@@ -3,7 +3,7 @@ import SideBar from "../SideBar/SideBar";
 import "./PortfolioStyle.css";
 import StrigonOneFFXIVWebsite from "./StrigonOneFFXIVWebsite/StrigonOneFFXIVWebsite";
 import MadeleinePizzutiWebsite from "./MadeleinePizzutiWebsite/MadeleinePizzutiWebsite";
-import MissionReadyLvl5Projects from "./MissionReadyLvl5Projects/MissionReadyLvl5Projects";
+// import MissionReadyLvl5Projects from "./MissionReadyLvl5Projects/MissionReadyLvl5Projects";
 import Typography from "@material-ui/core/Typography";
 import LevelUpWorksWebsite from "./LevelUpWorks/LevelUpWorksWebsite";
 import ScrollToTop from "../ScrollToTopButton/ScrollToTop";

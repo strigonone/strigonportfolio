@@ -19,7 +19,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Divider from "@material-ui/core/Divider";
 import ScrollToTop from "../../ScrollToTopButton/ScrollToTop";
 import "@fontsource/titillium-web";
-import ReactPlayer from "react-player/youtube";
+// import ReactPlayer from "react-player/youtube";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
