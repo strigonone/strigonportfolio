@@ -122,14 +122,20 @@ const AUTMasters = () => {
               </Button>
             </Link> */}
 
-            <Button
+            {/* <Button
               className={classes.disabledButton}
               disabled={true}
               href="https://www.strigononeffxiv.com/"
               variant="contained"
             >
               Under development
-            </Button>
+            </Button> */}
+
+            <Link className={classes.link} to="/AUTmore">
+              <Button className={classes.buttonStyle} variant="contained">
+                More Details
+              </Button>
+            </Link>
 
             <Divider style={{ marginTop: "2%" }} />
 

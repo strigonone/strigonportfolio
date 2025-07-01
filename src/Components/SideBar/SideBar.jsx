@@ -11,6 +11,8 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import MailIcon from "@material-ui/icons/Mail";
+import DescriptionIcon from "@material-ui/icons/Description";
+
 import PhoneIcon from "@material-ui/icons/Phone";
 import MenuIcon from "@material-ui/icons/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -132,6 +134,21 @@ export default function SideBar(props: Props) {
           <ListItemText primary={"+6173469316"} />
         </ListItem>
       </List>
+
+      <a
+        href="/Johnny CV2025 V3.pdf"
+        download
+        target="_blank"
+        rel="noopener noreferrer"
+        className={classes.link}
+      >
+        <ListItem button>
+          <ListItemIcon>
+            <DescriptionIcon />
+          </ListItemIcon>
+          <ListItemText primary={"CV"} />
+        </ListItem>
+      </a>
     </div>
   );
 
