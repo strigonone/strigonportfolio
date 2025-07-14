@@ -116,7 +116,7 @@ export default function SideBar(props: Props) {
             <ListItemIcon>
               <MailIcon />
             </ListItemIcon>
-            <ListItemText primary={"Email Me"} />
+            <ListItemText primary={"Email"} />
           </ListItem>
         </a>
         <a href="https://github.com/strigonone" className={classes.link}>
@@ -127,12 +127,14 @@ export default function SideBar(props: Props) {
             <ListItemText primary={"Git Hub"} />
           </ListItem>
         </a>
-        <ListItem button>
-          <ListItemIcon>
-            <PhoneIcon />
-          </ListItemIcon>
-          <ListItemText primary={"+6173469316"} />
-        </ListItem>
+        <a href="tel:+6173469316" className={classes.link}>
+          <ListItem button>
+            <ListItemIcon>
+              <PhoneIcon />
+            </ListItemIcon>
+            <ListItemText primary={"+6173469316"} />
+          </ListItem>
+        </a>
       </List>
 
       <a

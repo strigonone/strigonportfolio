@@ -9,6 +9,7 @@ import WDS from "../../../Images/HyperVWDS.png";
 import Unattend from "../../../Images/HyperVUnattendScript.png";
 import PXEBoot from "../../../Images/HyperVPXEBoot.png";
 import HostCom from "../../../Images/HyperVClientTalkingToHost.png";
+import UbuntuConnect from "../../../Images/UbuntuConnected.png";
 
 import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
@@ -118,6 +119,11 @@ const HyperVMore = () => {
             inside lab
           </li>
           <li>
+            Joined Ubuntu to Active Directory domain using realmd and sssd,
+            including DNS resolution fixes and successful domain user login with
+            home directory creation
+          </li>
+          <li>
             Documented entire process in detailed step-by-step guide with
             reusable commands
           </li>
@@ -206,6 +212,13 @@ const HyperVMore = () => {
         </Paper>
         <Paper className={classes.paper}>
           <img src={HostCom} alt="HostCommunication" className={classes.img} />
+        </Paper>
+        <Paper className={classes.paper}>
+          <img
+            src={UbuntuConnect}
+            alt="UbunutuConnected"
+            className={classes.img}
+          />
         </Paper>
       </Container>
     </div>
