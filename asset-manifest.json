@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/strigonportfolio/static/css/main.4b7f9c66.css",
-    "main.js": "/strigonportfolio/static/js/main.48ab4394.js",
+    "main.js": "/strigonportfolio/static/js/main.ec460741.js",
     "static/js/453.509be773.chunk.js": "/strigonportfolio/static/js/453.509be773.chunk.js",
     "static/media/strigonOneWebsiteDownloadPage.png": "/strigonportfolio/static/media/strigonOneWebsiteDownloadPage.cf553256b2b2df58619a.png",
     "static/media/strigonOneff14Lumina.jpg": "/strigonportfolio/static/media/strigonOneff14Lumina.674b0488dd769898155f.jpg",
@@ -16,6 +16,7 @@
     "static/media/strigonOneWebsite1080p.png": "/strigonportfolio/static/media/strigonOneWebsite1080p.41663d103af5099c1cc9.png",
     "static/media/strigonOneWebsiteEntireHomePage.png": "/strigonportfolio/static/media/strigonOneWebsiteEntireHomePage.28e2b0c62145f6a448a7.png",
     "static/media/strigonOneWebsiteGoogleAnalytics.png": "/strigonportfolio/static/media/strigonOneWebsiteGoogleAnalytics.32088f8f736b6179c921.png",
+    "static/media/UbuntuConnected.png": "/strigonportfolio/static/media/UbuntuConnected.77428ff468e835d282e8.png",
     "static/media/Suggestion Inspector.jpg": "/strigonportfolio/static/media/Suggestion Inspector.5ed5b53cb63d6a78b0a2.jpg",
     "static/media/strigonOneWebsiteCMSDashboard.png": "/strigonportfolio/static/media/strigonOneWebsiteCMSDashboard.1a2c748283ded3094a14.png",
     "static/media/HyperVLab.png": "/strigonportfolio/static/media/HyperVLab.d38a28e381e64d73282a.png",
@@ -47,11 +48,11 @@
     "static/media/titillium-web-latin-ext-400-normal.woff2": "/strigonportfolio/static/media/titillium-web-latin-ext-400-normal.b14344ef3ff7bb41e49d.woff2",
     "index.html": "/strigonportfolio/index.html",
     "main.4b7f9c66.css.map": "/strigonportfolio/static/css/main.4b7f9c66.css.map",
-    "main.48ab4394.js.map": "/strigonportfolio/static/js/main.48ab4394.js.map",
+    "main.ec460741.js.map": "/strigonportfolio/static/js/main.ec460741.js.map",
     "453.509be773.chunk.js.map": "/strigonportfolio/static/js/453.509be773.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b7f9c66.css",
-    "static/js/main.48ab4394.js"
+    "static/js/main.ec460741.js"
   ]
 }
