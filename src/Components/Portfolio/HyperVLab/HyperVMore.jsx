@@ -10,6 +10,7 @@ import Unattend from "../../../Images/HyperVUnattendScript.png";
 import PXEBoot from "../../../Images/HyperVPXEBoot.png";
 import HostCom from "../../../Images/HyperVClientTalkingToHost.png";
 import UbuntuConnect from "../../../Images/UbuntuConnected.png";
+import GPO from "../../../Images/GPOApplied.png";
 
 import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
@@ -92,7 +93,15 @@ const HyperVMore = () => {
           >
             Date: 2025
           </Typography>
-          <h4>Personal Lab Project</h4>
+          <h3>Personal Lab Project</h3>
+          <h4>Overview</h4>
+          <p>
+            Simulated a real-world school environment using Hyper-V and Windows
+            Server to practice enterprise-level deployment and policy
+            management. Focused on automating OS installation and enforcing
+            security via Active Directory and GPO.
+          </p>
+          <h4>Key Achievements</h4>
           <li>
             Built a lab environment in Hyper-V to simulate real-world PXE
             deployments
@@ -130,6 +139,18 @@ const HyperVMore = () => {
           <li>
             Purpose: improve hands-on deployment, imaging, and scripting skills
             for MSP environments
+          </li>
+          <li>
+            Designed Active Directory structure with Teachers & Students OUs,
+            user accounts, and security groups.
+          </li>
+          <li>
+            Applied GPOs for role-based policies (wallpaper enforcement,
+            personalization restrictions).
+          </li>
+          <li>
+            Configured shared folders with NTFS & share permissions for secure
+            access.
           </li>
 
           <h4>Technologies Used</h4>
@@ -219,6 +240,9 @@ const HyperVMore = () => {
             alt="UbunutuConnected"
             className={classes.img}
           />
+        </Paper>
+        <Paper className={classes.paper}>
+          <img src={GPO} alt="GPOApplied" className={classes.img} />
         </Paper>
       </Container>
     </div>

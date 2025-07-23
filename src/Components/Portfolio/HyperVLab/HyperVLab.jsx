@@ -87,7 +87,10 @@ const HyperVLab = () => {
               troubleshooting of network scopes, DNS issues, and remote
               application rollout.
             </p> */}
-            <h4>On going self study project</h4>
+            <h4>
+              Built a Hyper-V lab to simulate a school IT environment using PXE
+              deployments, WDS, DHCP, and AD DS for real-world scenarios.
+            </h4>
 
             <li>Built a Hyper-V lab to simulate real-world PXE deployments</li>
             <li>
@@ -101,6 +104,15 @@ const HyperVLab = () => {
               Practiced real troubleshooting around DNS, IP scopes, and
               deployment errors
             </li>
+            <li>
+              Designed Active Directory structure with OUs for Teachers &
+              Students; applied GPOs for wallpapers and access control.
+            </li>
+
+            <h4>
+              Outcome: Gained hands-on experience with enterprise-level
+              deployment and policy management.
+            </h4>
 
             {/* <Link
 							className={classes.link}
