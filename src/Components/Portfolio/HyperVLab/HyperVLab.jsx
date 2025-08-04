@@ -88,26 +88,37 @@ const HyperVLab = () => {
               application rollout.
             </p> */}
             <h4>
-              Built a Hyper-V lab to simulate a school IT environment using PXE
-              deployments, WDS, DHCP, and AD DS for real-world scenarios.
+              Built a Hyper-V lab to simulate real-world school IT deployments,
+              including PXE booting, WDS imaging, DHCP routing, and GPOs for
+              role-based policy control.
             </h4>
 
-            <li>Built a Hyper-V lab to simulate real-world PXE deployments</li>
+            <li>Simulated full PC deployments using WDS and Hyper-V</li>
             <li>
-              Configured WDS, DHCP, NAT routing, and unattended Windows 10 setup
+              Set up DHCP with NAT routing and PXE boot on an isolated VM
+              network
             </li>
+            <li>Created and captured custom Windows 10 images using DISM</li>
             <li>
-              Automated software installs using SetupComplete.cmd and custom
+              Automated installations with SetupComplete.cmd and PowerShell
               scripts
             </li>
             <li>
-              Practiced real troubleshooting around DNS, IP scopes, and
-              deployment errors
+              Practiced DNS, IP, and PXE troubleshooting for image reliability
             </li>
             <li>
-              Designed Active Directory structure with OUs for Teachers &
-              Students; applied GPOs for wallpapers and access control.
+              Applied Active Directory with OU structure for Teachers & Students
             </li>
+            <li>
+              Enforced wallpapers, personalization restrictions, and home folder
+              redirection with GPO
+            </li>
+            <li>
+              Joined Linux clients (Ubuntu) to AD with DNS fix and domain login
+              success
+            </li>
+
+            <li>Created user-specific home directories using GPO and NTFS</li>
 
             <h4>
               Outcome: Gained hands-on experience with enterprise-level
