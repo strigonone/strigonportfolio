@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/strigonportfolio/static/css/main.4b7f9c66.css",
-    "main.js": "/strigonportfolio/static/js/main.b2e27a7a.js",
+    "main.js": "/strigonportfolio/static/js/main.b68527a5.js",
     "static/js/453.509be773.chunk.js": "/strigonportfolio/static/js/453.509be773.chunk.js",
     "static/media/strigonOneWebsiteDownloadPage.png": "/strigonportfolio/static/media/strigonOneWebsiteDownloadPage.cf553256b2b2df58619a.png",
     "static/media/GPOApplied.png": "/strigonportfolio/static/media/GPOApplied.d6edadb51e55a6e6a8cd.png",
@@ -52,11 +52,11 @@
     "static/media/titillium-web-latin-ext-400-normal.woff2": "/strigonportfolio/static/media/titillium-web-latin-ext-400-normal.b14344ef3ff7bb41e49d.woff2",
     "index.html": "/strigonportfolio/index.html",
     "main.4b7f9c66.css.map": "/strigonportfolio/static/css/main.4b7f9c66.css.map",
-    "main.b2e27a7a.js.map": "/strigonportfolio/static/js/main.b2e27a7a.js.map",
+    "main.b68527a5.js.map": "/strigonportfolio/static/js/main.b68527a5.js.map",
     "453.509be773.chunk.js.map": "/strigonportfolio/static/js/453.509be773.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b7f9c66.css",
-    "static/js/main.b2e27a7a.js"
+    "static/js/main.b68527a5.js"
   ]
 }
