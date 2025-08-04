@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/strigonportfolio/static/css/main.4b7f9c66.css",
-    "main.js": "/strigonportfolio/static/js/main.3335a8ef.js",
+    "main.js": "/strigonportfolio/static/js/main.b2e27a7a.js",
     "static/js/453.509be773.chunk.js": "/strigonportfolio/static/js/453.509be773.chunk.js",
     "static/media/strigonOneWebsiteDownloadPage.png": "/strigonportfolio/static/media/strigonOneWebsiteDownloadPage.cf553256b2b2df58619a.png",
     "static/media/GPOApplied.png": "/strigonportfolio/static/media/GPOApplied.d6edadb51e55a6e6a8cd.png",
-    "static/media/strigonOneff14Lumina.jpg": "/strigonportfolio/static/media/strigonOneff14Lumina.674b0488dd769898155f.jpg",
     "static/media/animeCloudBirdBckground.png": "/strigonportfolio/static/media/animeCloudBirdBckground.39fb2710082cf8831bdf.png",
+    "static/media/SilentInstall.png": "/strigonportfolio/static/media/SilentInstall.25b7d892e945aadb0148.png",
     "static/media/battlefield5background.png": "/strigonportfolio/static/media/battlefield5background.eaf36186a91acdec5a57.png",
     "static/media/levelupWorksEntirePage.png": "/strigonportfolio/static/media/levelupWorksEntirePage.a2d19135b8f6958daf44.png",
+    "static/media/homedirectory.png": "/strigonportfolio/static/media/homedirectory.487c9d525a76cc06857a.png",
     "static/media/KoFiSales.png": "/strigonportfolio/static/media/KoFiSales.c7f815de28e4f8cda973.png",
     "static/media/madeleineWebsite.png": "/strigonportfolio/static/media/madeleineWebsite.21d665d2e06f416fc951.png",
     "static/media/levelupWorksWebsite.png": "/strigonportfolio/static/media/levelupWorksWebsite.378b9fdd23621889b925.png",
     "static/media/strigonOneWebsiteModDownload.png": "/strigonportfolio/static/media/strigonOneWebsiteModDownload.490ad0365b77f1588670.png",
     "static/media/strigonOne3DWorkLumina.jpg": "/strigonportfolio/static/media/strigonOne3DWorkLumina.23dd8a36b6771190cbbd.jpg",
     "static/media/strigonOneWebsite1080p.png": "/strigonportfolio/static/media/strigonOneWebsite1080p.41663d103af5099c1cc9.png",
+    "static/media/GPOControlPanelNoAcc.png": "/strigonportfolio/static/media/GPOControlPanelNoAcc.7d167a65fc6d5dcc7660.png",
     "static/media/strigonOneWebsiteEntireHomePage.png": "/strigonportfolio/static/media/strigonOneWebsiteEntireHomePage.28e2b0c62145f6a448a7.png",
     "static/media/strigonOneWebsiteGoogleAnalytics.png": "/strigonportfolio/static/media/strigonOneWebsiteGoogleAnalytics.32088f8f736b6179c921.png",
     "static/media/UbuntuConnected.png": "/strigonportfolio/static/media/UbuntuConnected.77428ff468e835d282e8.png",
@@ -22,6 +24,7 @@
     "static/media/strigonOneWebsiteCMSDashboard.png": "/strigonportfolio/static/media/strigonOneWebsiteCMSDashboard.1a2c748283ded3094a14.png",
     "static/media/HyperVLab.png": "/strigonportfolio/static/media/HyperVLab.d38a28e381e64d73282a.png",
     "static/media/Suggestion new log viewer.jpg": "/strigonportfolio/static/media/Suggestion new log viewer.c882d3d539af34e3c9c9.jpg",
+    "static/media/strigonOneff14Lumina.jpg": "/strigonportfolio/static/media/strigonOneff14Lumina.45ac5d37c4ec31969475.jpg",
     "static/media/levelupWorksTeachersigningupsuccessfully.png": "/strigonportfolio/static/media/levelupWorksTeachersigningupsuccessfully.d1908a77b6c0b12363df.png",
     "static/media/KoFiPage1.png": "/strigonportfolio/static/media/KoFiPage1.e3044f92ca2d19be588f.png",
     "static/media/HyperVClientTalkingToHost.png": "/strigonportfolio/static/media/HyperVClientTalkingToHost.ec579d6903387a8c1d26.png",
@@ -49,11 +52,11 @@
     "static/media/titillium-web-latin-ext-400-normal.woff2": "/strigonportfolio/static/media/titillium-web-latin-ext-400-normal.b14344ef3ff7bb41e49d.woff2",
     "index.html": "/strigonportfolio/index.html",
     "main.4b7f9c66.css.map": "/strigonportfolio/static/css/main.4b7f9c66.css.map",
-    "main.3335a8ef.js.map": "/strigonportfolio/static/js/main.3335a8ef.js.map",
+    "main.b2e27a7a.js.map": "/strigonportfolio/static/js/main.b2e27a7a.js.map",
     "453.509be773.chunk.js.map": "/strigonportfolio/static/js/453.509be773.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b7f9c66.css",
-    "static/js/main.3335a8ef.js"
+    "static/js/main.b2e27a7a.js"
   ]
 }
