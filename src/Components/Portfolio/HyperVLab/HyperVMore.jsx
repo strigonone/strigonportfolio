@@ -11,6 +11,9 @@ import PXEBoot from "../../../Images/HyperVPXEBoot.png";
 import HostCom from "../../../Images/HyperVClientTalkingToHost.png";
 import UbuntuConnect from "../../../Images/UbuntuConnected.png";
 import GPO from "../../../Images/GPOApplied.png";
+import GPOControlPanel from "../../../Images/GPOControlPanelNoAcc.png";
+import HomeDrive from "../../../Images/homedirectory.png";
+import silentInstall from "../../../Images/SilentInstall.png";
 
 import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
@@ -152,8 +155,19 @@ const HyperVMore = () => {
             Configured shared folders with NTFS & share permissions for secure
             access.
           </li>
+          <li>
+            Implemented user-specific home directories with NTFS and shared
+            permissions by configuring Group Policy to automatically create a
+            dedicated H: drive folder (e.g., \\DC1\HomeDirs\%username%) upon
+            first login — ensuring secure and structured user data access.
+          </li>
+          <li>
+            “Configured and executed silent application deployments using
+            PowerShell scripts and .msi parameters for streamlined, unattended
+            installations.”
+          </li>
 
-          <h4>Technologies Used</h4>
+          <h3>Technologies Used</h3>
           {/* <div className="techUsed"> */}
           {/* <ButtonGroup> */}
           <Button
@@ -198,8 +212,73 @@ const HyperVMore = () => {
           >
             Hyper-V
           </Button>
+          <Button
+            className={classes.buttonStyle}
+            href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview"
+            variant="contained"
+          >
+            GPO
+          </Button>
           <Divider style={{ marginTop: "2%" }} />
+          <h3>Documentation</h3>
+          <Button
+            className={classes.buttonStyle}
+            href="docs/LabOverview03072025.pdf"
+            target="_blank"
+            variant="contained"
+          >
+            Lab Overview
+          </Button>
+          <Button
+            className={classes.buttonStyle}
+            href="docs/Silent Install Gpo Guide.pdf"
+            target="_blank"
+            variant="contained"
+          >
+            Silent Installation Guide (Script)
+          </Button>
+          <Button
+            className={classes.buttonStyle}
+            href="docs/SilentMSIDeploymentGPOGuide.pdf"
+            target="_blank"
+            variant="contained"
+          >
+            Silent Installation Guide (MSI)
+          </Button>
+          <Button
+            className={classes.buttonStyle}
+            href="docs/StellarHighSchoolGPO.pdf"
+            target="_blank"
+            variant="contained"
+          >
+            Generic GPO Guide
+          </Button>
 
+          <Button
+            className={classes.buttonStyle}
+            href="docs/HomeFolderSetupGuide.pdf"
+            target="_blank"
+            variant="contained"
+          >
+            Home Folder Setup Guide
+          </Button>
+          <Button
+            className={classes.buttonStyle}
+            href="docs/HyperVNATDHCPIsolationLab.pdf"
+            target="_blank"
+            variant="contained"
+          >
+            NAT DHCP Isolation Lab Guide
+          </Button>
+          <Button
+            className={classes.buttonStyle}
+            href="docs/UbuntuDomainJoinDocumentation.pdf"
+            target="_blank"
+            variant="contained"
+          >
+            Ubuntu Domain Join Guide
+          </Button>
+          <Divider style={{ marginTop: "2%" }} />
           <Button
             className={classes.buttonStyle}
             onClick={() => {
@@ -243,6 +322,23 @@ const HyperVMore = () => {
         </Paper>
         <Paper className={classes.paper}>
           <img src={GPO} alt="GPOApplied" className={classes.img} />
+        </Paper>
+        <Paper className={classes.paper}>
+          <img
+            src={GPOControlPanel}
+            alt="GPOControlPanelLock"
+            className={classes.img}
+          />
+        </Paper>
+        <Paper className={classes.paper}>
+          <img src={HomeDrive} alt="HomeDirectory" className={classes.img} />
+        </Paper>
+        <Paper className={classes.paper}>
+          <img
+            src={silentInstall}
+            alt="SilentInstall"
+            className={classes.img}
+          />
         </Paper>
       </Container>
     </div>
